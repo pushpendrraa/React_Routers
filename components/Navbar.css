@@ -1,0 +1,40 @@
+/* Sidebar container */
+ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    width: 120px;
+    height: 50vh;
+    background: #0f172a; /* dark navy */
+}
+
+/* Stack items */
+li {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Nav links as buttons */
+a {
+    text-decoration: none;
+    padding: 12px 16px;
+    color: #e2e8f0;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: all 0.25s ease;
+    background: transparent;
+}
+
+/* Hover effect */
+a:hover {
+    background: #1e293b;
+    transform: translateX(5px);
+}
+
+/* Active link (current page) */
+.active {
+    background: linear-gradient(135deg, #3b82f6, #6366f1);
+    color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
